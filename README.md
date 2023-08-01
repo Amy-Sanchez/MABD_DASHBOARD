@@ -14,6 +14,10 @@ todas las opciones se pueden especificar en línea en el constructor (p. ej. 'co
 todos los tipos de gráficos https://developers.google.com/chart/interactive/docs/gallery
 
 #Instrucciones
+Pantalla principal del index.html
+![image](https://github.com/Amy-Sanchez/MABD_DASHBOARD/assets/65546803/0a2d3701-1404-461f-9a1f-f91413a864e3)
+![image](https://github.com/Amy-Sanchez/MABD_DASHBOARD/assets/65546803/bd79b8c5-4b62-492d-b45c-891ae47f516c)
+
 
 Link data utilizada, almacenada en un Sheet de Google:
 https://docs.google.com/spreadsheets/d/1C4pZaeBMuOaJKPHC2fIvFUznHN-bF8RfSo6HoWaPAxM/edit?usp=sharing
