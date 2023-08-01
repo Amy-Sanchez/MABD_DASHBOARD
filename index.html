@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Metadatos para seleccionar charset y hacer responsive -->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Tí­tulo de la web -->
+		<title>Data Dashboard</title>
+
+		<!-- Injectamos el loader de Google -->
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        
+
+		<!-- Injectamos el ficheros Javascript y hoja de estilos de nuesto Dashboard -->
+		<script src="script.js"></script> 
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<!-- Tí­tulo superior -->
+		<h1>Data Dashboard</h1>
+		<p>The data</p>
+        
+
+		<!-- Grid con todos los paneles -->
+		<div class="dashboard-wrapper">
+			<div id='p1' class='panel'><h2>Cantidad de transacciones diferidas por meses</h2> <div id='p1Chart'></div> 
+			<p>Representa un dato individual en el plano cartesiano, donde el eje x representa Numero de meses y el eje y representa Tipo de Transaccion</p>
+			</div>
+			<div id='p2' class='panel'><h2>Estado y Tipo de transacciones</h2> <div id='p2Chart'></div> 
+			La Cantidad en cada porción representa la cantidad de transacciones que pertenecen a el Estado y Tipo de transacciones
+			</div>
+			<div id='p3' class='panel'><h2>Transacciones por Marca</h2> <div id='p3Chart'></div> 
+			Cantidad total de transacciones para cada marca, en este caso TOL supera las 4000 transacciones
+			</div>
+			<div id='p4' class='panel'><h2>Sub panel 3</h2> <div id='p4Chart'></div> </div>
+			<div id='p5' class='panel'><h2>Bottom panel</h2> <div id='p5Chart'></div> </div> 
+		</div>
+
+		<!-- Pié de página -->
+		<div class='bottom'><a target='_blank' href=''>Modelado Avanzado de Bases de Datos</a>
+			<a target='_blank' href=''>- Amy Sanchez</a>
+		</div>
+	</body>
+</html>
